@@ -1,0 +1,34 @@
+.bc-main-div{
+    width: 100%;
+    height: 95vh;
+}
+.bc-bg-image-div{
+    background-image: url('./../../../assets/bc-bg.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    width: 100%;
+    color: #fff;
+    background-color: #19b24b;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 0px;
+    cursor: pointer !important;
+}
+
+.btn:hover {
+    border: 1px solid #19b24b !important;
+    background-color: #19b24b !important;
+}
+@media (max-width: 500px){
+    .partner-card-img-div .partner-card-img{
+        width: 46.7vw;
+    }
+}
